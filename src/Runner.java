@@ -8,12 +8,12 @@ public class Runner
         System.out.println("Matches: " + test1List.numMatches());
 
         String[] test2 = {"Hey", "this", "is", "not", "this"};
-        WordPairList test2List = new WordPairList(test1);
+        WordPairList test2List = new WordPairList(test2);
 
         System.out.println("Matches: " + test2List.numMatches());
 
         String[] test3 = {"Hey", "You-", "Hey", "listen", "Hey"};
-        WordPairList test3List = new WordPairList(test1);
+        WordPairList test3List = new WordPairList(test3);
 
         System.out.println("Matches: " + test3List.numMatches());
     }
