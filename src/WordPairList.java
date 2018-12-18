@@ -30,4 +30,19 @@ public class WordPairList
 
         return count;
     }
+
+    public String toString()
+    {
+        String out = "";
+
+        for(int i = 0; i<allPairs.size();i++)
+        {
+            out += "(" + allPairs.get(i).getFirst() + ", " + allPairs.get(i).getSecond() + ")";
+            if(i != allPairs.size()-1)
+            {
+                out += ", ";
+            }
+        }
+        return out;
+    }
 }
