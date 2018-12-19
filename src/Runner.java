@@ -8,7 +8,7 @@ public class Runner
 
         System.out.println("Matches: " + test1List.numMatches());
 
-        String[] test2 = {"the", "more", "the", "the", "merrier"};
+        String[] test2 = {"the", "more", "the", "merrier"};
         WordPairList test2List = new WordPairList(test2);
         System.out.println(test2List);
 
