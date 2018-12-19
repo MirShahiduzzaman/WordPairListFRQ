@@ -2,7 +2,7 @@ public class Runner
 {
     public static void main(String[] args)
     {
-        String[] test1 = {"One", "Two", "Three", "Four"};
+        String[] test1 = {"Kye", "is", "very", "beautiful"};
         WordPairList test1List = new WordPairList(test1);
         System.out.println(test1List);
 

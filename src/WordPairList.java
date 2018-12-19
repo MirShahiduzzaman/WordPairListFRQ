@@ -4,6 +4,10 @@ public class WordPairList
 {
     private ArrayList<WordPair> allPairs;
 
+    /**
+     * Constructor for WordPairList
+     * @param words String array of words used to make WordPairs and the ArrayList allPairs
+     */
     public WordPairList(String[] words)
     {
         allPairs = new ArrayList <WordPair>();
@@ -16,6 +20,10 @@ public class WordPairList
         }
     }
 
+    /**
+     * finds and returns the number of pairs in allPairs with the same word
+     * @return the number of pairs with the same word
+     */
     public int numMatches()
     {
         int count = 0;
@@ -31,6 +39,10 @@ public class WordPairList
         return count;
     }
 
+    /**
+     * toString method for WordPairList
+     * @return String containing the contents of allPairs
+     */
     public String toString()
     {
         String out = "";
